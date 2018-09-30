@@ -1,0 +1,38 @@
+//import normalize
+@import 'normalize/normalize.scss';
+
+//import fonts
+@import 'fonts/main-font.scss';
+
+
+/**
+** main style
+**/
+
+//main variable
+$wrapper-width: 1366px;
+$main-font:'LatoRegular', sans-serif;
+$main-font-size: 14px;
+$main-color-background:#ffffff;
+//main color
+$color-link:#a9c7e0;
+$color-text:#3c3c3c;
+$color-text-caption:#66a1d2;
+$color-botton-target:#0b5fa5;
+$color-botton: #043c6b;
+
+
+body {
+  background-color: $main-color-background;
+  color: $color-text;
+  font-size: $main-font-size;
+  font-family: $main-font;
+  a {
+    color: $color-link;
+  }
+}
+
+h1 {
+  font-size: 26px;
+  color: $color-text-caption;
+}
